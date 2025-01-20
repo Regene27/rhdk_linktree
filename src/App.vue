@@ -6,7 +6,11 @@
         <p>មន្ទីរពេទ្យបង្អែក ដង្កោ</p>
       </div>
 
-      <div class="video-card"></div>
+      <div class="video-card">
+        <video width="100%" height="100%" controls autoplay loop>
+          <source src="./assets/rhdk-vid.mp4" type="video/mp4" />
+        </video>
+      </div>
 
       <a href="https://rhdk-linktree-xn5d.onrender.com/" class="link-card">
         <img src="https://rhsdsm.netlify.app/logos/website.png" alt="" class="icon">
@@ -87,6 +91,7 @@ body {
   margin-top: 2rem;
   background-color: #ffffff;
   height: 13rem;
+  border: 3px solid #0033ff;
 }
 
 .link-card {
