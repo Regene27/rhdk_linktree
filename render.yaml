@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: rhdk-linktree
+    staticPublishPath: dist
+    buildCommand: npm run build
+    routes:
+      - type: rewrite
+        source: /.*
+        destination: /index.html
