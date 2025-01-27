@@ -7,5 +7,5 @@ module.exports = {
       .loader("file-loader")
       .end();
   },
-  publicPath: process.env.NODE_ENV === "production" ? "/" : "/",
+  publicPath: process.env.NODE_ENV === "production" ? "/rhdk-linktree/" : "/",
 };

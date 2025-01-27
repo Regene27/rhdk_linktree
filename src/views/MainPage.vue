@@ -11,49 +11,49 @@
       </div>
 
       <a href="https://rhdk-linktree.onrender.com/" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/website.png" alt="" class="icon">
+        <img src="../assets/website.png" alt="" class="icon">
         <p>គេហទំព័រនៃមន្ទីរពេទ្យ / Website</p>
       </a>
       <a href="https://www.facebook.com/profile.php?id=100082954795594" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/facebook.png" alt="" class="icon">
+        <img src="../assets/facebook.png" alt="" class="icon">
         <p>ហ្វេកបុកផេក / Facebook Page</p>
       </a>
       <a href="https://rhdk-linktree.onrender.com/" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/youtube.png" alt="" class="icon">
+        <img src="../assets/youtube.png" alt="" class="icon">
         <p>យូធូបឆាណែល / Youtube</p>
       </a>
       <a href="https://rhdk-linktree.onrender.com/" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/tiktok.png" alt="" class="icon">
+        <img src="../assets/tiktok.png" alt="" class="icon">
         <p>បណ្តាញសង្គមតីកតុក / TikTok</p>
       </a>
       <a href="https://www.facebook.com/messages/t/112353538169011" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/messenger.png" alt="" class="icon">
+        <img src="../assets/messenger.png" alt="" class="icon">
         <p>ឆាតសួរពត៌មានបន្ថែម / Messenger</p>
       </a>
       <a href="https://t.me/+85517751690" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/telegram.png" alt="" class="icon">
+        <img src="../assets/telegram.png" alt="" class="icon">
         <p>ឆាណែលតេលេក្រាម / Telegram</p>
       </a>
       <a href="https://maps.app.goo.gl/jJwBKzKovsEZVv2KA" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/location.png" alt="" class="icon">
+        <img src="../assets/location.png" alt="" class="icon">
         <p>ទីតាំងនៃមន្ទីរពេទ្យ / RH_Location</p>
       </a>
-      <a v-if="isMobile" href="/pdf" download="" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/riels.png" alt="" class="icon">
-        <p>កញ្ចប់តម្លៃសេវាពិនិត្យសុខភាពទូទៅ</p>
-      </a>
-      <a v-else href="/pdf" class="link-card">
-        <img src="https://rhsdsm.netlify.app/logos/riels.png" alt="" class="icon">
-        <p>កញ្ចប់តម្លៃសេវាពិនិត្យសុខភាពទូទៅ</p>
-      </a>
-      <a href="https://rhdk-linktree.onrender.com/" class="link-card">
+      <RouterLink v-if="isMobile" to="/pricelist" class="link-card" download="">
+        <img src="../assets/riels.png" alt="" class="icon">
+        <p>តម្លៃសេវាមន្ទីរពេទ្យ / Hospital Price List</p>
+      </RouterLink>
+      <RouterLink v-else to="/pricelist" class="link-card">
+        <img src="../assets/riels.png" alt="" class="icon">
+        <p>តម្លៃសេវាមន្ទីរពេទ្យ / Hospital Price List</p>
+      </RouterLink>
+      <!-- <a href="https://rhdk-linktree.onrender.com/" class="link-card">
         <img src="https://rhsdsm.netlify.app/logos/rielss.png" alt="" class="icon">
         <p>កញ្ចប់ពិនិត្យសុខភាពទៅតាមវ័យ</p>
       </a>
       <a href="https://rhdk-linktree.onrender.com/" class="link-card">
         <img src="https://rhsdsm.netlify.app/logos/riel.png" alt="" class="icon">
         <p>តម្លៃសេវាមន្ទីរពេទ្យ / Hospital Price List</p>
-      </a>
+      </a> -->
       <a href="https://rhdk-linktree.onrender.com/" class="link-card">
         <img src="https://rhsdsm.netlify.app/logos/feedback.png" alt="" class="icon">
         <p>ផ្តល់ពត័មានត្រឡប់ / Feedback</p>
